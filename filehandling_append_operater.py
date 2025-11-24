@@ -1,0 +1,6 @@
+f=open("test.txt",'a+')
+f.write("I Am Sagar")
+f.seek(0)
+data=f.read()
+print(data)
+f.close()
